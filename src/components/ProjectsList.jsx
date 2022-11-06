@@ -1,8 +1,11 @@
 import ProjectPreview from "./ProjectPreview";
+import styles from "./ProjectsList.module.css"
+
 
 const ProjectsList = (props) => {
   return ( 
     <>
+    <article className={styles.projectPreview}>
     <h1>Projects</h1>
     <ul>
     {props.projects.map(project =>
@@ -11,6 +14,7 @@ const ProjectsList = (props) => {
       </li>
    )}
    </ul>
+   </article>
    </>
   );
 }

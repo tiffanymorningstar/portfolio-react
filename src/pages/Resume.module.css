@@ -1,0 +1,15 @@
+.resume {
+  background-color:black;
+}
+
+h1 {
+  color: rgb(39, 142, 216);
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(39, 142, 216);
+}

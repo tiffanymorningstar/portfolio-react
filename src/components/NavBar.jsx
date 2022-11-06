@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom"
+import styles from "./NavBar.module.css"
 
 function NavBar() {
   return (
+    
       <nav>
+        <article className={styles.navBar}>
           <Link 
               to='/'
           >
@@ -47,7 +50,9 @@ function NavBar() {
                   </Link>
               </li>
           </ul>
-      </nav>
+        </article>      
+       </nav>
+      
   )
 }
 

@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
+import styles from "./Contact.module.css"
 
 
 const Contact = () => {
   return ( 
+    <main className={styles.contact}>
     <>
     <h1>Contact</h1>
     <h2>Reach out if you'd like to work with me!</h2>
@@ -11,6 +13,7 @@ const Contact = () => {
     <Link to="">LinkedIn</Link>
 
     </>
+    </main>
    );
 }
  
