@@ -1,12 +1,20 @@
 const ProjectPreview = (props) => {
   return ( 
-    <>
-    <p>{props.title}</p>
+    <div>
+    <img 
+        src={props.image} 
+        alt={props.title}
+    />
 
-
-
-
-   </>
+    <section>
+        <h3>
+            {props.title}
+        </h3>
+					<button>
+              Learn more
+          </button>
+    </section>
+</div>
   );
 }
  

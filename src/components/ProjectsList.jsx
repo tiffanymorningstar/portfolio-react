@@ -7,7 +7,7 @@ const ProjectsList = (props) => {
     <ul>
     {props.projects.map(project =>
       <li key={project.title}>
-        <ProjectPreview title ={project.title} />
+        <ProjectPreview title ={project.title} image = {props.image} />
       </li>
    )}
    </ul>
