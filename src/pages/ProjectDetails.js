@@ -5,7 +5,7 @@ const ProjectDetails = () => {
     <>
     <h1>{projects[0].title}</h1>
     <p>{projects[0].description}</p>
-    <img src="public/mk-screen-shot.png" alt="Mortal Connect Four Combat" />
+    <img src="/images/mk-screen-shot-small.png" alt="Mortal Connect Four Combat" />
 
  
     <a href ={projects[0].repositoryLink}
@@ -15,7 +15,7 @@ const ProjectDetails = () => {
 
     <h1>{projects[1].title}</h1>
     <p>{projects[1].description}</p>
-    <img src="public/migraine_tracker.png" alt="Migraine Tracker" />
+    <img src="/images/migraine_tracker_small.png" alt="Migraine Tracker" />
 
     <a href ={projects[1].repositoryLink}>
     <button>GitHub Repo</button></a>
