@@ -1,7 +1,7 @@
 import { projects } from "../data/projects"
 import ProjectsList from "../components/ProjectsList"
 
-const Projects = (prop)=> {
+const Projects = (props)=> {
   return (
     <>
       <ProjectsList projects={projects}/>

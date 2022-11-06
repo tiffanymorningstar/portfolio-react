@@ -1,17 +1,19 @@
+import ProjectPreview from "./ProjectPreview";
 
 const ProjectsList = (props) => {
   return ( 
     <>
     <h1>Projects</h1>
+    <ul>
     {props.projects.map(project =>
-      <ul>
       <li key={project.title}>
-        <p>{project.title}</p>
+        <ProjectPreview title ={project.title} />
       </li>
-      </ul>
    )}
+   </ul>
    </>
   );
 }
  
 export default ProjectsList;
+
