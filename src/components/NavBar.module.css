@@ -1,8 +1,14 @@
 .navBar {
   background-color:black;
   background-size: cover;
+  font-family: 'Syncopate', sans-serif;
 }
 
 a:visited {
   color: rgb(39, 142, 216);
+}
+
+:root {
+  background-color:black;
+
 }

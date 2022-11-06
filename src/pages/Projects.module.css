@@ -1,5 +1,7 @@
 .projects {
   background-color:black;
+  height: 400px;
+  font-family: 'Syncopate', sans-serif;
 }
 
 a:link {

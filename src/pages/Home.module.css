@@ -1,5 +1,8 @@
 .home {
   background-color:black;
+  height: 400px;
+  font-family: 'Syncopate', sans-serif;
+
 }
 a:visited {
   color: rgb(39, 142, 216);
