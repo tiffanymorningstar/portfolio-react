@@ -4,20 +4,22 @@
   /* font-family: 'Syncopate', sans-serif; */
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
-  color: white; 
-
+  font-weight: 700;
+  display: inline-block;
 }
 
+h1 {
+  color: rgb(39, 142, 216);
+  font-size: 60px;
+}
 
 p {
   /* color: rgb(39, 142, 216); */
   color: rgb(39, 142, 216);
+  display: inline-block;
+
 }
-h1 {
-  /* color: rgb(39, 142, 216); */
-  color: rgb(39, 142, 216);
-  font-size: 60px;
-}
+
 
 a:link {
   color: rgb(39, 142, 216);
@@ -37,4 +39,10 @@ body {
   display: flex;
   padding: 20px;
 
+}
+
+.about img {
+  border: 10px white;
+  border-radius: 200px;
+  border: 5px solid rgb(39, 142, 216);
 }

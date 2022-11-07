@@ -7,7 +7,11 @@ const Resume = () => {
     <main className={styles.resume}>
     <>
     <h1>Resume</h1>
-    <Link to="">Resume</Link>
+    <Link to="./files/TiffanyMorningstarResume2022.pdf">
+    </Link>
+ 
+    <a href="./files/TiffanyMorningstarResume2022.pdf" download="tiffany-morningstar-resume">Click here to Download Resume</a>
+
     </>
     </main>
    );

@@ -3,16 +3,18 @@
   height: 400px;
   /* font-family: 'Syncopate', sans-serif; */
   font-family: 'Amatic SC', cursive;
-  
+  font-size: 40px;
+  font-weight: 700;
 }
 
 h1 {
   color: rgb(39, 142, 216);
+  font-size: 60px;
 }
 
 h2 {
   color: rgb(39, 142, 216);
-  font-size: 30px;
+  font-size: 40px;
 }
 
 
@@ -25,8 +27,11 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
-:link {
-  font-size: 20px;;
+
+.flexbox-item-2 {
+  border: 7px solid rgb(39, 142, 216);
+  border-radius: 50px;
+  margin: auto;
 }
 
 body {
@@ -34,4 +39,3 @@ body {
   padding: 20px;
 
 }
-

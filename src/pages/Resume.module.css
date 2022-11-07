@@ -16,3 +16,9 @@ a:link {
 a:visited {
   color: rgb(39, 142, 216);
 }
+
+a {
+  font-size: 30px;
+  font-weight: 700;
+
+}

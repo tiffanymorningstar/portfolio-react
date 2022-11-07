@@ -6,13 +6,15 @@ function NavBar() {
     
       <nav>
         <article className={styles.navBar}>
+       
+
           <Link 
               to='/'
           >
               Tiffany Morningstar
           </Link>
-          <img id="star" src="./images/star.png" alt="Star"/>
-
+       
+         
 
           <ul>
               <li>
@@ -52,6 +54,7 @@ function NavBar() {
                   </Link>
               </li>
           </ul>
+          <img id="star" src="./images/star.png" alt="Star"/>
         </article>      
        </nav>
       
