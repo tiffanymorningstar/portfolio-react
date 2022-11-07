@@ -1,17 +1,29 @@
 .home {
   background-color:black;
   height: 400px;
-  font-family: 'Syncopate', sans-serif;
+  /* font-family: 'Syncopate', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  padding: 20px;
 
 }
 a:visited {
   color: rgb(39, 142, 216);
 }
 
-h1 {
+.home h1 {
   color: rgb(39, 142, 216);
+  font-size: 70px;;
+
 }
 
-h2 {
+.home h2 {
   color: rgb(39, 142, 216);
+  font-size: 50px;;
+
+}
+
+.home h3 {
+  color: rgb(39, 142, 216);
+  font-size: 45px;;
+
 }

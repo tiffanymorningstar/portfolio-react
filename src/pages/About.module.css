@@ -1,21 +1,40 @@
 .about {
   background-color:black;
-  width: 100%;
   height: 400px;
-  font-family: 'Syncopate', sans-serif;
+  /* font-family: 'Syncopate', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: white; 
+
 }
 
+
 p {
+  /* color: rgb(39, 142, 216); */
   color: rgb(39, 142, 216);
 }
 h1 {
+  /* color: rgb(39, 142, 216); */
   color: rgb(39, 142, 216);
+  font-size: 60px;
 }
 
 a:link {
-  color: white;
+  color: rgb(39, 142, 216);
 }
 
 a:visited {
   color: rgb(39, 142, 216);
+}
+
+.flexbox-item-1 {
+  border: 7px solid rgb(39, 142, 216);
+  border-radius: 50px;
+  margin: auto;
+}
+
+body {
+  display: flex;
+  padding: 20px;
+
 }

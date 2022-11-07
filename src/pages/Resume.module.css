@@ -1,7 +1,8 @@
 .resume {
   background-color:black;
   height: 400px;
-  font-family: 'Syncopate', sans-serif;
+  /* font-family: 'Syncopate', sans-serif; */
+  font-family: 'Amatic SC', cursive;
 }
 
 h1 {

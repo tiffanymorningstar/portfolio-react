@@ -1,7 +1,9 @@
 .contact {
   background-color:black;
   height: 400px;
-  font-family: 'Syncopate', sans-serif;
+  /* font-family: 'Syncopate', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  
 }
 
 h1 {
@@ -10,7 +12,10 @@ h1 {
 
 h2 {
   color: rgb(39, 142, 216);
+  font-size: 30px;
 }
+
+
 
 a:link {
   color: white;
@@ -19,3 +24,14 @@ a:link {
 a:visited {
   color: rgb(39, 142, 216);
 }
+
+:link {
+  font-size: 20px;;
+}
+
+body {
+  display: flex;
+  padding: 20px;
+
+}
+

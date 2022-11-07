@@ -11,6 +11,8 @@ function NavBar() {
           >
               Tiffany Morningstar
           </Link>
+          <img id="star" src="./images/star.png" alt="Star"/>
+
 
           <ul>
               <li>
