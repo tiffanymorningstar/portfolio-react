@@ -3,8 +3,7 @@
   height: 400px;
   /* font-family: 'Syncopate', sans-serif; */
   font-family: 'Amatic SC', cursive;
-  padding: 20px;
-
+  padding: 50px;
 }
 a:visited {
   color: rgb(39, 142, 216);
@@ -13,17 +12,22 @@ a:visited {
 .home h1 {
   color: rgb(39, 142, 216);
   font-size: 70px;;
-
 }
 
 .home h2 {
   color: rgb(39, 142, 216);
   font-size: 50px;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .home h3 {
   color: rgb(39, 142, 216);
-  font-size: 45px;;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }

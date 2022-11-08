@@ -10,7 +10,7 @@ const Resume = () => {
     <Link to="./files/TiffanyMorningstarResume2022.pdf">
     </Link>
  
-    <a href="./files/TiffanyMorningstarResume2022.pdf" download="tiffany-morningstar-resume">Click here to Download Resume</a>
+    <a href="./files/TiffanyMorningstarResume2022.pdf" download="tiffany-morningstar-resume">Click here to Download My Resume</a>
 
     </>
     </main>

@@ -6,20 +6,33 @@
   font-size: 40px;
   font-weight: 700;
   display: inline-block;
+  padding: 30px;
 }
 
 h1 {
   color: rgb(39, 142, 216);
   font-size: 60px;
+  display: block;
+  white-space: nowrap;
+  overflow-wrap: normal;
 }
 
 p {
-  /* color: rgb(39, 142, 216); */
   color: rgb(39, 142, 216);
-  display: inline-block;
-
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  width: 520px;
+  height: 200%;
 }
 
+.about img {
+  border-radius: 200px;
+  border: 5px solid rgb(39, 142, 216);
+  float: right;
+  display: inline;
+  margin-right: 10px;
+}
 
 a:link {
   color: rgb(39, 142, 216);
@@ -29,11 +42,11 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
-.flexbox-item-1 {
+/* .flexbox-item-1 {
   border: 7px solid rgb(39, 142, 216);
   border-radius: 50px;
   margin: auto;
-}
+} */
 
 body {
   display: flex;
@@ -41,8 +54,3 @@ body {
 
 }
 
-.about img {
-  border: 10px white;
-  border-radius: 200px;
-  border: 5px solid rgb(39, 142, 216);
-}

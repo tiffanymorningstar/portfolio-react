@@ -8,7 +8,7 @@ function NavBar() {
         <article className={styles.navBar}>
        
 
-          <Link 
+          <Link id="name"
               to='/'
           >
               Tiffany Morningstar
