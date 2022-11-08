@@ -9,8 +9,13 @@ const Resume = () => {
     <h1>Resume</h1>
     <Link to="./files/TiffanyMorningstarResume2022.pdf">
     </Link>
- 
-    <a href="./files/TiffanyMorningstarResume2022.pdf" download="tiffany-morningstar-resume">Click here to Download My Resume</a>
+    <p>To learn about my work and experience, feel free to download my resume at the link below</p>
+    <a href="./files/TiffanyMorningstarResume2022.pdf" download="tiffany-morningstar-resume">Click here to Download</a>
+
+
+    <a href="./files/TiffanyMorningstarResume2022.pdf" download="tiffany-morningstar-resume">
+    <img src="https://i.imgur.com/BT3MrST.png" alt="Resume"></img></a>
+
 
     </>
     </main>

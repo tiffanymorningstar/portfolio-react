@@ -17,7 +17,7 @@
 
 }
 
-h2 {
+.contact h2 {
   color: rgb(39, 142, 216);
   font-size: 40px;
   display: flex;
@@ -29,10 +29,10 @@ h2 {
   /* display: flex;
   align-items: center;
   justify-content: center; */
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */
 
 }
-
-
 
 a:link {
   color: rgb(39, 142, 216);
@@ -42,23 +42,3 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
-
-.flexbox-item-2 {
-  border: 7px solid rgb(39, 142, 216);
-  border-radius: 50px;
-  margin: auto;
-}
-
-body {
-  display: flex;
-  padding: 20px;
-
-}
-
-.contact img {
-  /* display: flex;  
-  justify-content: space-evenly;
-  align-items: center; 
-  justify-content: center;
-  flex-direction: row;  */
-}

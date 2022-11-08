@@ -2,7 +2,7 @@
 
 const projects = [{title: 'Mortal Connect Four Combat', 
   description: "Play the classic strategy game, 'Connect Four' with the aesthetics of the video game Mortal Kombat.",
-  image:"https://i.imgur.com/wU0mK8j.png",
+  image:"https://i.imgur.com/TTcXiLU.png",
   repositoryLink:"https://github.com/tiffanymorningstar/connect-four.git",
   deploymentLink:"https://tiffany-morningstar-connect-four.netlify.app"
 },

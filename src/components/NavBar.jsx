@@ -7,14 +7,11 @@ function NavBar() {
       <nav>
         <article className={styles.navBar}>
        
-
           <Link id="name"
               to='/'
           >
               Tiffany Morningstar
           </Link>
-       
-         
 
           <ul>
               <li>

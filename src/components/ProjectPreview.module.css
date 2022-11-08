@@ -1,7 +1,8 @@
-.navBar {
+.projectPreview {
   background-color:black;
   background-size: cover;
-  font-family: 'Syncopate', sans-serif;
+  /* font-family: 'Syncopate', sans-serif; */
+  font-family: 'Amatic SC', cursive;
 }
 
 a:visited {

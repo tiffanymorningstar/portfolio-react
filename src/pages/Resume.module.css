@@ -6,7 +6,7 @@
   padding: 50px;
 }
 
-h1 {
+.resume h1 {
   color: rgb(39, 142, 216);
 }
 
@@ -18,10 +18,26 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
+.resume p {
+  color: rgb(39, 142, 216);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 520px;
+  height: 50%;
+  margin-left: 280px;
+}
+
 .resume a {
   font-size: 30px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.resume img {
+  margin-bottom: 100px;
+  margin-top: 25px;
 }

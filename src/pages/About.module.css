@@ -1,7 +1,6 @@
 .about {
   background-color:black;
   height: 400px;
-  /* font-family: 'Syncopate', sans-serif; */
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
   font-weight: 700;
@@ -9,7 +8,7 @@
   padding: 30px;
 }
 
-h1 {
+.about h1 {
   color: rgb(39, 142, 216);
   font-size: 60px;
   display: block;
@@ -17,7 +16,7 @@ h1 {
   overflow-wrap: normal;
 }
 
-p {
+.about p {
   color: rgb(39, 142, 216);
   display: inline;
   float: left;
@@ -32,6 +31,7 @@ p {
   float: right;
   display: inline;
   margin-right: 10px;
+  padding: 30px;
 }
 
 a:link {
@@ -42,15 +42,5 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
-/* .flexbox-item-1 {
-  border: 7px solid rgb(39, 142, 216);
-  border-radius: 50px;
-  margin: auto;
-} */
 
-body {
-  display: flex;
-  padding: 20px;
-
-}
 
