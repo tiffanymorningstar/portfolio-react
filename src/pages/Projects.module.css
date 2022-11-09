@@ -8,10 +8,14 @@
 
 a:link {
   color: rgb(39, 142, 216);
+  text-decoration: none;
+
 }
 
 a:visited {
   color: rgb(39, 142, 216);
+  text-decoration: none;
+
 }
 
 .projects li {
@@ -22,14 +26,19 @@ a:visited {
   justify-content: center;
 }
 
-button {
+.projects button {
   border-radius: 50px;
-  background-color: white;
+  border: 3px solid white;
+  /* background-color: white; */
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 7px;
   margin-bottom: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
   }
 
 .projects img{

@@ -32,22 +32,14 @@ a:visited {
 
 }
 
-/* .home img {
-  border-radius: 200px;
-  border: 5px solid rgb(39, 142, 216);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .home p {
-  color: rgb(39, 142, 216);
-  display: inline;
-
+  color: white;
+  /* display: inline; */
   width: 520px;
   height: 200%;
   font-weight: 700;
-
+  font-size: 30px;
 }
 
 .home img {
@@ -55,4 +47,5 @@ a:visited {
   border: 5px solid rgb(39, 142, 216);
   display: inline;
   padding: 30px;
+  justify-content: center;
 }

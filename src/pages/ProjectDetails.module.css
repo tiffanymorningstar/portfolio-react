@@ -9,7 +9,7 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
-li {
+.projectDetails li {
   color: rgb(39, 142, 216);
 }
 
@@ -17,6 +17,25 @@ li {
 
 } */
 
-p {
+.projectDetails p {
+  color: rgb(39, 142, 216);
+  font-weight: 700;
   font-size: 30px;
+}
+
+.projectDetails button {
+  border-radius: 50px;
+  border: 3px solid white;
+  /* background-color: white; */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  width: 120px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+
 }

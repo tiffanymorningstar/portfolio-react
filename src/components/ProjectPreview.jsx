@@ -20,7 +20,7 @@ const ProjectPreview = (props) => {
         </h3>
         <Link to={path}>
 					<button>
-              Learn more
+              LEARN MORE
           </button>
           </Link>
     </section>

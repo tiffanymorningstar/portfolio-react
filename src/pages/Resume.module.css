@@ -8,6 +8,7 @@
 
 .resume h1 {
   color: rgb(39, 142, 216);
+  font-size: 60px;
 }
 
 a:link {
@@ -27,6 +28,8 @@ a:visited {
   width: 520px;
   height: 50%;
   margin-left: 280px;
+  font-size: 30px;
+
 }
 
 .resume a {

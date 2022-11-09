@@ -4,7 +4,6 @@ import styles from "./Contact.module.css"
 
 const Contact = () => {
   return ( 
-    <div class="about flexbox-item-2">
     <main className={styles.contact}>
     <>
     {/* <img id="small-star "src='https://i.imgur.com/WLDTOXi.png'></img> */}
@@ -15,18 +14,17 @@ const Contact = () => {
     <Link to="">GitHub</Link>
     <Link to="">LinkedIn</Link> */}
     <a href="https://www.linkedin.com/in/tiffanymorningstar/">
-      <img src="https://i.imgur.com/TnXXqVx.png" alt="Email"></img></a>
+      <img src="https://i.imgur.com/meCKkMS.png" alt="LinkedIn"></img></a>
 
       <a href="trmorningstar@gmail.com">
-      <img src="https://i.imgur.com/6kUwjm6.png" alt="Email"></img></a>
+      <img src="https://i.imgur.com/6kUwjm6.png" alt="E-mail"></img></a>
 
       <a href="https://github.com/tiffanymorningstar">
-      <img src="https://i.imgur.com/laQJCo9.png" alt="Email"></img></a>
+      <img src="https://i.imgur.com/laQJCo9.png" alt="GitHub"></img></a>
 
 
     </>
     </main>
-    </div>
    );
 }
  
