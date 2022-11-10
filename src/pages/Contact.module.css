@@ -23,13 +23,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .contact img {
   /* display: flex; */
   align-items: center; 
   justify-content: center; 
-  flex-direction: row;
+  /* flex-direction: row; */
   /* justify-content: space-evenly;  */
   /* flex-direction: space-between;  */
 
@@ -41,5 +42,12 @@ a:link {
 
 a:visited {
   color: rgb(39, 142, 216);
+}
+
+.contact div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 

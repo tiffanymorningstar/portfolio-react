@@ -9,3 +9,6 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
+.projectPreview div {
+  width: 100%
+}

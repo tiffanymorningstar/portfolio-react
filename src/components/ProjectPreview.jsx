@@ -15,6 +15,7 @@ const ProjectPreview = (props) => {
     />
 
     <section>
+      <div>
         <h3>
             {props.title}
         </h3>
@@ -23,6 +24,7 @@ const ProjectPreview = (props) => {
               LEARN MORE
           </button>
           </Link>
+          </div>
     </section>
     </article>
 </div>

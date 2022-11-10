@@ -13,6 +13,7 @@ const Contact = () => {
     {/* <Link to="">Email</Link>
     <Link to="">GitHub</Link>
     <Link to="">LinkedIn</Link> */}
+    <div>
     <a href="https://www.linkedin.com/in/tiffanymorningstar/">
       <img src="https://i.imgur.com/meCKkMS.png" alt="LinkedIn"></img></a>
 
@@ -21,7 +22,7 @@ const Contact = () => {
 
       <a href="https://github.com/tiffanymorningstar">
       <img src="https://i.imgur.com/laQJCo9.png" alt="GitHub"></img></a>
-
+      </div>
 
     </>
     </main>

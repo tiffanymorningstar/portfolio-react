@@ -40,12 +40,23 @@ a:visited {
   height: 200%;
   font-weight: 700;
   font-size: 30px;
+  width: 100%;
 }
 
-.home img {
+ .headshot {
   border-radius: 200px;
   border: 5px solid rgb(39, 142, 216);
-  display: inline;
+  display: flex;
   padding: 30px;
+  /* align-self: center; */
+  /* width: 100%; */
+}
+
+.home div {
+  display: flex;
+  width: 100%;
   justify-content: center;
 }
+
+
+

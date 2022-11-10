@@ -18,14 +18,22 @@ console.log(project)
     <main className={styles.projectDetails}>
     <>
     <h1>{project.title}</h1>
+    <div>
     <p>{project.description}</p>
-    <img src={project.image} alt="screenshot"/>
+    </div>
 
- 
+    <div>
+    <img src={project.image} alt="screenshot"/>
+    </div>
+
+    <div>
     <a href ={project.repositoryLink}
     ><button>GitHub Repo</button></a>
+    </div>
 
+    <div>
     <a href ={project.deploymentLink}><button>Deployed Site</button></a>
+    </div>
     </>
     </main>
   );
