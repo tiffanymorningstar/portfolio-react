@@ -35,12 +35,16 @@ a:visited {
 
 .home p {
   color: white;
-  /* display: inline; */
+  display: flex;
+  display: inline;
   width: 520px;
   height: 200%;
   font-weight: 700;
   font-size: 30px;
   width: 100%;
+  float: right;
+  width: 520px;
+  height: 200%;
 }
 
  .headshot {
@@ -50,12 +54,15 @@ a:visited {
   padding: 30px;
   /* align-self: center; */
   /* width: 100%; */
+  float: left;
+  display: inline;
+  /* margin-right: 15px; */
 }
 
 .home div {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+  /* display: flex; */
+  /* width: 100%; */
+  /* justify-content: center; */
 }
 
 
