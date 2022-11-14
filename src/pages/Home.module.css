@@ -11,7 +11,9 @@ a:visited {
 
 .home h1 {
   color: rgb(39, 142, 216);
-  font-size: 70px;;
+  font-size: 60px;;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .home h2 {
@@ -35,28 +37,32 @@ a:visited {
 
 .home p {
   color: white;
-  display: flex;
-  display: inline;
-  width: 520px;
-  height: 200%;
   font-weight: 700;
   font-size: 30px;
-  width: 100%;
+  display: inline;
   float: right;
   width: 520px;
   height: 200%;
+  position: relative;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em; */
+  /* margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+
 }
 
  .headshot {
   border-radius: 200px;
   border: 5px solid rgb(39, 142, 216);
-  display: flex;
+  /* display: flex; */
   padding: 30px;
   /* align-self: center; */
   /* width: 100%; */
   float: left;
   display: inline;
   /* margin-right: 15px; */
+  position: relative;
+
 }
 
 .home div {

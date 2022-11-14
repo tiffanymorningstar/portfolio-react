@@ -14,14 +14,20 @@
   display: block;
   white-space: nowrap;
   overflow-wrap: normal;
+  margin-top: 0;
+  margin-left: 15px;
 }
 
 .about p {
   color: white;
+  font-weight: 700;
+  font-size: 30px;
   display: inline;
   float: right;
   width: 410px;
   height: 200%;
+  position: relative;
+
 }
 
 .about img {
