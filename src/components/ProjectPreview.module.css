@@ -17,3 +17,9 @@ a:visited {
 
 .projectsList button {
 }
+
+.projectPreview section, a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

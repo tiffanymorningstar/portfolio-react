@@ -9,12 +9,12 @@ a:visited {
   color: rgb(39, 142, 216);
 }
 
-.home h1 {
+/* .home h1 {
   color: rgb(39, 142, 216);
   font-size: 60px;;
   margin-bottom: 0;
   margin-top: 0;
-}
+} */
 
 .home h2 {
   color: rgb(39, 142, 216);
@@ -40,10 +40,10 @@ a:visited {
   font-weight: 700;
   font-size: 30px;
   display: inline;
-  float: right;
-  width: 520px;
+  width: 300px;
   height: 200%;
   position: relative;
+  padding: 0 0 0 50px;
   /* margin-block-start: 1em;
   margin-block-end: 1em; */
   /* margin-inline-start: 0px;
@@ -58,7 +58,6 @@ a:visited {
   padding: 30px;
   /* align-self: center; */
   /* width: 100%; */
-  float: left;
   display: inline;
   /* margin-right: 15px; */
   position: relative;
@@ -66,9 +65,9 @@ a:visited {
 }
 
 .home div {
-  /* display: flex; */
-  /* width: 100%; */
-  /* justify-content: center; */
+  display: flex; 
+  width: 60%; 
+  justify-content: center;
 }
 
 

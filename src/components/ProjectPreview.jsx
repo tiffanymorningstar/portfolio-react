@@ -20,11 +20,11 @@ const ProjectPreview = (props) => {
             {props.title}
         </h3>
         <Link to={path}>
-          <div>
+         
 					<button>
               LEARN MORE
           </button>
-          </div>
+       
           </Link>
           
     </section>

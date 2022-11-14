@@ -4,11 +4,11 @@
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
   font-weight: 700;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 30px;
 }
 
-.about h1 {
+/* .about h1 {
   color: rgb(39, 142, 216);
   font-size: 60px;
   display: block;
@@ -16,26 +16,24 @@
   overflow-wrap: normal;
   margin-top: 0;
   margin-left: 15px;
-}
+} */
 
 .about p {
   color: white;
   font-weight: 700;
   font-size: 30px;
-  display: inline;
-  float: right;
-  width: 410px;
+  /* display: inline; */
+  width: 610px;
   height: 200%;
-  position: relative;
+  /* position: relative; */
+  padding: 30px;
 
 }
 
 .about img {
   border-radius: 200px;
   border: 5px solid rgb(39, 142, 216);
-  float: left;
-  display: inline;
-  margin-right: 15px;
+  /* display: inline; */
   padding: 30px;
 }
 
@@ -45,6 +43,12 @@ a:link {
 
 a:visited {
   color: rgb(39, 142, 216);
+}
+
+.about div {
+display: flex;
+justify-content: center;
+width: 80%;
 }
 
 
