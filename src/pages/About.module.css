@@ -35,6 +35,7 @@
   border: 5px solid rgb(39, 142, 216);
   /* display: inline; */
   padding: 30px;
+  height: auto;
 }
 
 a:link {

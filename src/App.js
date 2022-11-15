@@ -22,7 +22,7 @@ function App() {
       element={<Contact />}
     />   
     <Route
-      path='/home'
+      path='/'
       element={<Home />}
     />
     <Route
