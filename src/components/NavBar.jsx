@@ -8,13 +8,13 @@ function NavBar() {
         <article className={styles.navBar}>
        
         <img id="star" src="./images/star.png" alt="Star"/>
-
+        <div>
           <Link class="name"
               to='/'
           >
               Tiffany Morningstar
           </Link>
-
+        </div>
           <ul>
               <li>
                   <Link

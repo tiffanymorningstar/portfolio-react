@@ -77,3 +77,12 @@ a:link.name {
 /* a:link {
   padding: 20px;
 } */
+
+.navBar div {
+  margin-left: 0px;
+  margin-right: 60px;
+}
+
+a.name {
+  margin-left: 1px;
+}
