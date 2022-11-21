@@ -7,7 +7,7 @@ const Contact = () => {
     <>
     {/* <img id="small-star "src='https://i.imgur.com/WLDTOXi.png'></img> */}
 
-    <h1>Contact</h1>
+    <h1>CONTACT</h1>
     <h2>I can be reached via the links below:</h2>
     {/* <Link to="">Email</Link>
     <Link to="">GitHub</Link>

@@ -6,7 +6,7 @@ const Resume = () => {
   return ( 
     <main className={styles.resume}>
     <>
-    <h1>Resume</h1>
+    <h1>RESUME</h1>
     <Link to="./files/TiffanyMorningstarResume2022.pdf">
     </Link>
     {/* <p>To learn about my work and experience, feel free to download my resume at the link below</p> */}

@@ -7,15 +7,31 @@ function NavBar() {
       <nav>
         <article className={styles.navBar}>
        
-        <img id="star" src="./images/star.png" alt="Star"/>
+        
         <div>
-          <Link class="name"
+          {/* <Link class="name"
               to='/'
           >
               Tiffany Morningstar
-          </Link>
+          </Link> */}
         </div>
+          
+        
+    
           <ul>
+          
+          <li>
+          { <Link class="name"
+              to='/'
+          >
+              Tiffany Morningstar
+          </Link> }
+        </li>
+
+        { <img id="star" src="./images/star.png" alt="Star"/> }
+
+
+
               <li>
                   <Link
                       to='/about'

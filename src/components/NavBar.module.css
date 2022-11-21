@@ -2,7 +2,11 @@
   background-color:black;
   background-size: cover;
   /* font-family: 'Syncopate', sans-serif; */
-  font-family: 'Amatic SC', cursive;
+  /* Hand written */
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Secular One', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +18,7 @@
 }
 
 .navBar ul {
-  width: 50%;
+  width: 70%;
   display: flex;
   list-style: none;
   font-weight: 700;
@@ -30,6 +34,8 @@
 .navBar img {
   color: white;
   padding: 15px;
+  margin-top: 3px;
+  margin-bottom: 7px;
 }
 
 .navBar a {
@@ -81,8 +87,11 @@ a:link.name {
 .navBar div {
   margin-left: 0px;
   margin-right: 60px;
+
 }
 
 a.name {
   margin-left: 1px;
+  color: white;
+
 }

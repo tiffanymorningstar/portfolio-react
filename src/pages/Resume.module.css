@@ -1,14 +1,15 @@
 .resume {
   background-color:black;
-  height: 400px;
+  height: 375px;
   /* font-family: 'Syncopate', sans-serif; */
-  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Amatic SC', cursive; */
+  font-family: 'Secular One', sans-serif;
   padding: 50px;
 }
 
 .resume h1 {
   color: rgb(39, 142, 216);
-  font-size: 60px;
+  font-size: 48px;
   margin-bottom: 0;
   /* margin-top: 0; */
 }

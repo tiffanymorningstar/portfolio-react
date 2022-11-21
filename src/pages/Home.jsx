@@ -5,8 +5,7 @@ const Home = () => {
   return ( 
     <main className={styles.home}>
     <>
-    <h1>Home</h1>
-    <h2>Tiffany Morningstar</h2>
+    {/* <h2>TIFFANY MORNINGSTAR</h2> */}
     <div>
     <img className={styles.headshot} src='https://i.imgur.com/CNhSNEx.jpg' alt='headshot'></img>
     {/* <h3>Software Engineer</h3> */}
