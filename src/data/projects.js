@@ -12,8 +12,8 @@ const projects = [{title: 'Mortal Connect Four Combat',
   repositoryLink:"https://github.com/tiffanymorningstar/migraine-tracker.git",
   deploymentLink:"https://migrainetracker.fly.dev"
 },
-{title: "AVI - Birding App", 
-  description:"An app for Birding",
+{title: "AVI Birding", 
+  description:"An app for Bird Watchers",
   image:"https://i.imgur.com/uYDnmni.png",
   repositoryLink:"https://github.com/tiffanymorningstar/Avi-front-end.git",
   deploymentLink:"https://avi-birding.netlify.app/"
