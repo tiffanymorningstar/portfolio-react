@@ -1,6 +1,154 @@
 .navBar {
   background-color:black;
   background-size: cover;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 0 0 0;
+}
+
+/* main {
+  background-color:black;
+  background-size: cover;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 0 0 0;
+} */
+
+/* body  {
+  background-color:black;
+  background-size: cover;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+} */
+
+:root {
+  background-color:black;
+}
+
+.navBar ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  border-radius: 200px;
+  border: 4px solid rgb(39, 142, 216);
+  padding: 0px;
+}
+
+.navBar img {
+  color: white;
+  padding: 15px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+
+.nav link {
+}
+
+.navBar a {
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 35px;
+}
+
+a:visited {
+  /* color: rgb(39, 142, 216); */
+  color: rgb(39, 142, 216);
+  text-decoration: none;
+}
+
+/* :root {
+  background-color:black;
+
+} */
+
+.navBar li {
+  list-style: none;
+  text-decoration: none;
+}
+
+#name {
+  text-decoration: none;
+  padding: 20px;
+}
+
+
+a:link.name {
+  padding: 0px;
+} 
+
+/* a:link {
+  padding: 20px;
+} */
+
+.navBar div {
+  margin-left: 0px;
+  margin-right: 60px;
+
+}
+
+a.name {
+  margin-left: 1px;
+  color: white;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.mobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+.navBar {
+  background-color:black;
+  background-size: cover;
+  /* font-family: 'Syncopate', sans-serif; */
+  /* Hand written */
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Secular One', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 0 0 0;
+
+}
+
+body {
+
+}
+
+main {
+  background-color:black;
+  background-size: cover;
   /* font-family: 'Syncopate', sans-serif; */
   /* Hand written */
   /* font-family: 'Amatic SC', cursive; */
@@ -14,11 +162,9 @@
   font-weight: 700;
   text-decoration: none;
   margin: 0 0 0 0;
-
 }
-
 .navBar ul {
-  width: 70%;
+  width: 100%;
   display: flex;
   list-style: none;
   font-weight: 700;
@@ -50,6 +196,7 @@
   white-space: nowrap;
   padding: 10px;
   border-radius: 50px;
+  font-size: 25px;
 
 }
 
@@ -60,10 +207,10 @@ a:visited {
 
 }
 
-:root {
+/* :root {
   background-color:black;
 
-}
+} */
 
 .navBar li {
   list-style: none;

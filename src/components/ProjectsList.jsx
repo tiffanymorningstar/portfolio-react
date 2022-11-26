@@ -6,7 +6,7 @@ const ProjectsList = (props) => {
   return ( 
     <>
     <article className={styles.projectPreview}>
-    <h1>Projects</h1>
+    {/* <h1>Projects</h1> */}
     <ul>
     {props.projects.map(project =>
       <li >

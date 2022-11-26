@@ -1,6 +1,6 @@
 .projectDetails {
   background-color:black;
-  height: 400px;
+  height: 550px;
   /* font-family: 'Syncopate', sans-serif; */
   /* font-family: 'Amatic SC', cursive; */
   font-family: 'Secular One', sans-serif;
@@ -55,4 +55,89 @@ a:visited {
   justify-content: center;
   /* justify-content: space-evenly; */
   margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    
+  }
+
+  .projectDetails main {
+    background-color:black;
+    /* height: 100%; 
+    width: 100%;  */
+    /* font-family: 'Syncopate', sans-serif; */
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Secular One', sans-serif;
+    /* padding: 10px; */
+    margin: 10px;
+  }
+
+  .projectDetails {
+    background-color:black;
+    height: 400px;
+    /* font-family: 'Syncopate', sans-serif; */
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Secular One', sans-serif;
+    padding: 10% 0 0 0;
+  }
+  
+  a:visited {
+    color: rgb(39, 142, 216);
+  }
+  
+  .projectDetails li {
+    color: rgb(39, 142, 216);
+  }
+  
+  /* button {
+  
+  } */
+  
+  .projectDetails p {
+    color: rgb(39, 142, 216);
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .projectDetails h1 {
+    color: rgb(39, 142, 216);
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .projectDetails button {
+    border-radius: 50px;
+    border: 3px solid white;
+    /* background-color: white; */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 120px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  
+  }
+  
+  .projectDetails div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    margin-bottom: 10px;
+  }
+
 }

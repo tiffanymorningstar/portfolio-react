@@ -6,17 +6,6 @@ function NavBar() {
     
       <nav>
         <article className={styles.navBar}>
-       
-        
-        <div>
-          {/* <Link class="name"
-              to='/'
-          >
-              Tiffany Morningstar
-          </Link> */}
-        </div>
-          
-        
     
           <ul>
           
