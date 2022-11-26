@@ -19,9 +19,9 @@ a:link {
   color: white;
   font-weight: 700;
   font-size: 23px;
-  width: 275px; 
-  height: 250px;
-  padding: 10px;
+  width: 375px; 
+  height: 300px;
+  padding: 20px;
 }
 
  .headshot {
@@ -116,10 +116,10 @@ a:link {
     color: white;
     font-weight: 700;
     font-size: 15px;
-    height: 150px;
-    width: 175px; 
+    height: 250px;
+    width: 200px; 
     /* position: relative; */
-    padding: 30px;
+    padding: 20px;
   }
   
   .headshot {
