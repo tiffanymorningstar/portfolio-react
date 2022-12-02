@@ -10,6 +10,7 @@ const Resume = () => {
     <Link to="./files/TiffanyMorningstarResume2022.pdf">
     </Link>
     {/* <p>To learn about my work and experience, feel free to download my resume at the link below</p> */}
+
     <a href="./files/TiffanyMorningstarResume2022.pdf" download="tiffany-morningstar-resume">Click to Download</a>
 
 

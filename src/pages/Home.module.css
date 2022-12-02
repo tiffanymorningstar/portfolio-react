@@ -18,10 +18,11 @@ a:link {
 .home p {
   color: white;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 22px;
   width: 375px; 
   height: 300px;
   padding: 20px;
+  display: block;
 }
 
  .headshot {

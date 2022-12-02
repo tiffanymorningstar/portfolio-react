@@ -13,7 +13,9 @@ const Home = () => {
           </div>
           {/* <h3>Software Engineer</h3> */}
           <div className="flexbox-item-2">
-            <p>I’m a Software Engineer with a Tech Stack that includes: HTML5, CSS3, JavaScript, MongoDB, React, Node.JS, Express, Python, Django, Java, and Selenium. Starting out in tech as a QA Engineer, I can find unexpected use cases in the early stages of development, helping to avoid additional work later on in the software development life cycle.</p>
+            <p>I’m a Software Engineer with a Tech Stack that includes: HTML5, CSS3, JavaScript, MongoDB, React, Node.JS, Express, Python, Django, Java, and Selenium.<br></br><br></br>
+            Starting out in tech as a QA Engineer, I can find unexpected use cases in the early stages of development, helping to avoid additional work later on in the software development life cycle
+            </p>
           </div>
         </div>
         </div>
